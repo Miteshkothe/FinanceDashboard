@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: FinanceDashboard
+  datasource:
+    url: jdbc:postgresql://db.ulseglipkvzspnxffadz.supabase.co:5432/postgres
+    username: postgres
+    password: Mitesh250205@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
