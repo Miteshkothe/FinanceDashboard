@@ -2,9 +2,9 @@ spring:
   application:
     name: FinanceDashboard
   datasource:
-    url: jdbc:postgresql://db.ulseglipkvzspnxffadz.supabase.co:5432/postgres
-    username: postgres
-    password: Mitesh250205@
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
